@@ -48,7 +48,7 @@ def load_credentials_from_toml(toml_file_path):
         raise e
 
 # Load credentials from secrets.toml
-credentials = load_credentials_from_toml('/Users/haroonshoaib/Desktop/anomalydtection/secrets.toml')
+credentials = load_credentials_from_toml('views/secrets.toml')
 
 #credentials = service_account.Credentials.from_service_account_file('nlpanomalydet-21686a781d06.json')
 project_id = "nlpanomalydet"
